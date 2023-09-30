@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 255, 255);
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #2614ac;
+}
+
+.section1 h1{
+    color: #2614ac;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.writer{
+    width: 289px;
+}
+
+.topright .instaimg1{
+    height:100px
+    width: 289px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    
+}
+
+.box{
+    padding: 8px 0;
+    margin: 15px 25px;
+    min-width: 28vw;
+    border: 2px solid rgb(96, 37, 3);
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(244, 157, 244);
+}
+
+.box h2,i,u{
+    font-size: 1.5rem;
+    padding: 15px 0;
+    background-color:  rgb(244, 157, 244);
+}
+
+
+.box ul{
+    list-style-type: none;
+    background-color: rgb(244, 157, 244);
+}
+
+.box ul li{
+   margin: 12px 2px;
+   background-color:  rgb(244, 157, 244);
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
